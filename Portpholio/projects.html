@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Jubair Al Faisal</title>
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', Tahoma; background: #f7f7f7; color: #333; display: flex; min-height: 100vh; }
+    aside { background: #fff; width: 280px; padding: 30px 20px; box-shadow: 2px 0 10px rgba(0,0,0,0.05); display: flex; flex-direction: column; align-items: center; }
+    aside img { width: 130px; height: 130px; border-radius: 50%; background: #ddd; object-fit: cover; margin-bottom: 15px; }
+    aside h2 { margin: 10px 0 5px; font-size: 1.3rem; }
+    aside p { margin: 3px 0; color: #666; font-size: .95rem; text-align: center; }
+    nav { margin-top: 30px; width: 100%; }
+    nav a { display: block; padding: 10px 0; text-align: center; text-decoration: none; color: #333; border-radius: 8px; transition: .3s; }
+    nav a:hover { background: #e8f0fe; color: #1a73e8; }
+    nav a.active { color: #1a73e8; font-weight: bold; }
+    main { flex: 1; padding: 40px 60px; max-width: 900px; margin: auto; }
+    main h1 { font-size: 1.8rem; margin-bottom: 30px; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px; }
+    .project { margin-bottom: 40px; }
+    .project h2 a { color: #1a73e8; text-decoration: none; transition: .3s; }
+    .project h2 a:hover { text-decoration: underline; }
+    .project p { color: #444; line-height: 1.6; }
+    .tech { font-weight: bold; margin-top: 8px; }
+  </style>
+</head>
+<body>
+
+<aside>
+  <img src="profile.jpg" alt="">
+  <h2>Jubair Al Faisal</h2>
+  <p>CS Graduate, 2023 @ SUST</p>
+
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="cv.html">📄 CV</a>
+    <a class="active" href="projects.html">💡 Projects</a>
+  </nav>
+</aside>
+
+<main>
+  <h1>Selected Projects</h1>
+
+  <div class="project">
+    <h2><a href="https://github.com/ShaikhSR1/DateClassification">Image based down syndrome detection of children using convolutional neural network</a></h2>
+    <p>This two-member project, submitted for CSE-480: Project Work, developed “An Image-based Android Appli-
+cation for Date Fruit Classification using Convolutional Neural Network (CNN)”. Using Python, we applied
+machine learning to classify nine types of date fruits with CNN models trained on 1,658 images. The ReLU-
+based model achieved 99.47% accuracy, then converted to TensorFlow Lite and integrated into an Android app
+with a Java interface. The app enables real-time fruit recognition from camera or gallery images, providing a
+fast, accurate, and automated solution for date fruit classification.</p>
+  </div>
+
+  <div class="project">
+    <h2>FoodBee<a href="https://github.com/ShaikhSR1/FoodBeeWeb_3-1_Web_final_project">Website</a> and <a href="https://github.com/JubairAlFaisalCSE/FoodBee">Android Application</a> </h2>
+    <p>This project was completed for the course CSE308: System Analysis and Design Laboratory as part of a five-
+member team. Initially, we developed the system as a web-based application, focusing on functionality, user
+interaction, and database integration. Later, we extended the project by creating an Android application to
+make the system more accessible and user-friendly across mobile platforms.</p>
+    
+  </div>
+
+  <div class="project">
+    <h2><a href="#">Giblytics</a></h2>
+    <p>Analytics dashboard...</p>
+    <p class="tech">Flask, React, PostgreSQL</p>
+  </div>
+
+  <div class="project">
+    <h2><a href="#">Master’s Thesis Project</a></h2>
+    <p>Ultra-lightweight CNN framework...</p>
+    <p class="tech">Python, TensorFlow</p>
+  </div>
+
+</main>
+
+</body>
+</html>
